@@ -27,21 +27,21 @@ export default function App() {
                 name="HomeScreen"
                 component={HomeScreen}
                 options={{
-                  headerShow: false,
+                  headerShown: false,
                 }}
               />
               <Stack.Screen
                 name="MapScreen"
                 component={MapScreen}
                 options={{
-                  headerShow: false,
+                  headerShown: false,
                 }}
               />
               <Stack.Screen
                 name="EatsScreen"
                 component={EatsScreen}
                 options={{
-                  headerShow: false,
+                  headerShown: false,
                 }}
               />
             </Stack.Navigator>
